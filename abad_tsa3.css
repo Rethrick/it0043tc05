@@ -1,0 +1,69 @@
+body {
+    word-wrap: normal;
+    text-align: center;
+    background-color: white;
+    background-image: url(backgroundgreen.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 115%;
+
+}
+
+.Logo{
+    position: absolute;
+    float: inline-start;
+    width: 20;
+    height: 20;
+}
+
+.heading{ 
+    font-family: "Freeman", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: black;
+    font-size: 7rem;
+
+}
+
+.subheading{
+  
+    font-family: "Freeman", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    font-size: 3rem;
+}
+
+.paragraph1{
+    
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+.paragraph2{
+   
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2rem;
+}
+.paragraph3{
+    
+    color: darkgreen;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+    font-size: 4rem;
+    font-style: bold;
+}
+
+.green {
+    color: green;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: bold;
+}
