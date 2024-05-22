@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background-image: url(background4.jpg);
+    background-color: green;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.container {
+    max-width: 90vw;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-right: 25px;
+    margin-left: 50px;
+}
+
+
+.card {
+    margin: 35px;
+    display: inline-block;
+    background-color: green;
+    width: 500px;
+    text-align: center;
+    border-radius: 1rem;
+    vertical-align: top;
+    border-width: 10px;
+    height: auto;
+    box-shadow: 10px 10px 10px black;
+}
+
+.card2 {
+    margin: 35px;
+    display: inline-block;
+    background-color: darkred;
+    width: 500px;
+    text-align: center;
+    border-radius: 1rem;
+    vertical-align: top;
+    border-width: 10px;
+    height: auto;
+    box-shadow: 10px 10px 10px black;
+}
+
+.card3 {
+    margin: 35px;
+    display: inline-block;
+    background-color: blue;
+    width: 500px;
+    text-align: center;
+    border-radius: 1rem;
+    vertical-align: top;
+    border-width: 10px;
+    height: auto;
+    box-shadow: 10px 10px 10px black;
+}
+
+.card4 {
+    margin: 35px;
+    display: inline-block;
+    background-color: gold;
+    width: 500px;
+    text-align: center;
+    border-radius: 1rem;
+    vertical-align: top;
+    border-width: 10px;
+    height: auto;
+    box-shadow: 10px 10px 10px black;
+}
+
+.card5 {
+    margin: 35px;
+    display: inline-block;
+    background-color: plum;
+    width: 500px;
+    text-align: center;
+    border-radius: 1rem;
+    vertical-align: top;
+    border-width: 10px;
+    height: auto;
+    box-shadow: 10px 10px 10px black;
+}
+
+.card6 {
+    margin: 35px;
+    display: inline-block;
+    background-color: silver;
+    width: 500px;
+    text-align: center;
+    border-radius: 1rem;
+    vertical-align: top;
+    border-width: 10px;
+    height: auto;
+    box-shadow: 10px 10px 10px black;
+}
+
+
+.image {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border: black;
+    padding: 20px 10px 20px;
+    background-image: url(pokeball_wallpaper_4_by_aervormund-d341637.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 115%;
+    box-shadow: 0 4px 8px black;
+}
+
+img {
+    align-content: center;
+    height: 100%;
+    width: 50%;
+}
+
+.details {
+    padding: 20px;
+}
+
+.name {
+    font-size: 3rem;
+    color: white;
+    text-shadow: 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    padding: 20px;
+}
+
+.desc {
+    margin: 10px 20px 10px 20px;
+    color: white;
+    font-style: italic;
+    text-shadow: 1px 1px black;
+}
+
+.type {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: antiquewhite;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-right: 5px;
+}
+
+.type.grass {
+    font-size: larger;
+    background-color: darkgreen;
+}
+
+.type.poison {
+    font-size: larger;
+
+    background-color: violet;
+}
+
+.type.fire {
+    font-size: larger;
+
+    background-color: red;
+}
+
+.type.water {
+    font-size: larger;
+
+    background-color: skyblue;
+}
+
+
+.type.electric {
+    font-size: larger;
+    background-color: #F8AB47;
+}
+
+.type.ghost {
+    font-size: larger;
+    background-color: purple;
+}
+
+.type.normal {
+    font-size: larger;
+    background-color: grey;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.add {
+    font-size: 1rem;
+    background-color: #2196F3;
+    color: white;
+}
+
+button.release {
+    font-size: 1rem;
+    background-color: #F44336;
+    color: white;
+}
