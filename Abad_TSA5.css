@@ -11,6 +11,9 @@ body {
 
 .slayer-container {
     background-image: url(demonslayerBG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
     width: 85vw;
     margin: 20px auto;
     padding: 20px;
