@@ -103,7 +103,7 @@ img {
 }
 
 
-@media(max-width:960px) {
+@media(max-width:1175px) {
     .slayer-container {
         grid-template-columns: 1fr 1fr;
     }
