@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    background-image: url(grassminecraft.jpg)
+}
+
+.controlBox {
+    text-align: center;
+    margin: 20px;
+    height: auto;
+    width: 90vw;
+    border-width: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+button {
+    height: auto;
+    width: 100px;
+    padding: 20px;
+    background-color: grey;
+    margin: 10px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+
+.flex-container {
+    display: flex;
+    height: auto;
+    width: 100%;
+    border: 1px solid black;
+    background-image: url(dirt.jpg);
+    padding: 20px;
+    gap: 10px;
+}
+
+.flex-item {
+    display: flex;
+    font-size: 4rem;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    background-image: url(skeletonmc.jpg);
+    background-position: center;
+    background-size: cover;
+    color: darkred;
+    height: 100px;
+    width: 100px;
+    flex-grow: 0;
+}
+
+#box1 {
+    height: 40px;
+    width: 60px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#box2 {
+    height: 40px;
+    width: 60px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#box3 {
+    height: 40px;
+    width: 60px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#gapInput {
+    height: 40px;
+    width: 60px;
+    font-size: 2rem;
+    text-align: center;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Abad_Resurreccion_tsa7.css">
+    <title>Flex Simulator</title>
+</head>
+
+<body>
+    <div class="controlBox">
+        <div class="flex-direction">
+            <label>Flex Direction</label>
+            <br>
+            <button id="rowBnt"> Row </button>
+            <button id="columnBnt"> Column </button>
+            <br>
+        </div>
+        <div class="justify-content">
+            <label>Justify Content</label>
+            <br>
+            <button id="start"> Start</button>
+            <button id="center"> Center </button>
+            <br>
+            <button id="end"> End </button>
+            <button id="space-Between"> Space Between</button>
+            <br>
+            <button id="space-Around"> Space Around </button>
+            <button id="space-Evenly"> Space Evenly </button>
+            <br>
+        </div>
+        <div class="alignItems">
+            <label>Align Items</label>
+            <br>
+            <button id="alignStart"> Start </button>
+            <button id="alignCenter"> Center</button>
+            <br>
+            <button id="alignEnd"> End </button>
+        </div>
+        <div class="flexGrow">
+            <label>Flex Grow</label>
+            <br>
+            <button id="resetFlowGrow"> Reset </button>
+            <button id="growAll"> Grow All</button>
+            <br>
+            Box 1
+            <input type="number" id="box1" value="0">
+            <button id="box1Button">Set</button>
+            <br>
+            Box 2
+            <input type="number" id="box2" min="0" value="0">
+            <button id="box2Button">Set</button>
+            <br>
+            Box 3
+            <input type="number" id="box3" min="0" value="0">
+            <button id="box3Button">Set</button>
+        </div>
+        <div class="gap">
+            <label for="gapInput">Gap</label>
+            <input type="number" id="gapInput" min="0" value="0">
+            <button id="gapBtn">Set</button>
+        </div>
+    </div>
+    <div class="resetControls">
+        <button id="resetControls">Reset</button>
+    </div>
+
+    </div>
+
+    <div class="flex-container">
+        <div class="flex-item" id="item1">1</div>
+        <div class="flex-item" id="item2">2</div>
+        <div class="flex-item" id="item3">3</div>
+    </div>
+
+
+    <script src="Abad_Resurreccion_tsa7.js"></script>
+</body>
+
+</html>
