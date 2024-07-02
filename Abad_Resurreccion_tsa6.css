@@ -1,0 +1,452 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.5s all ease;
+}
+
+body{
+    height: auto;
+    background-image: url(backgroundJJK.jfif);
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    width: 100vw;
+    background-color: black;
+    height: fit-content;
+    color: white;
+    padding: 5px 15px;
+}
+
+.logo {
+    display: flex;
+    height: 50px;
+    width: 100px;
+    font-size: 0.5rem;
+}
+
+.navigation-item {
+    list-style: none;
+    display: flex;
+    box-shadow: inset 0 0 0 0 #660008;
+    color: #7b000a;
+    margin: auto;
+    padding: 1rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    border-radius: 5px;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-list {
+    display: flex;
+    gap: 50px;
+
+}
+
+.navigation-item:hover {
+    box-shadow: inset 100px 0 0 0 #77001c;
+    color: white;
+}
+
+.navigation-links {
+    color: white;
+    text-decoration: none;
+}
+
+main .container{
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+    border: #660008 solid 3px;
+    background-color: rgb(0, 0, 0, 2);
+    margin: 30px auto;
+}
+
+.homeTxt{
+    color: white;
+    text-align: left;
+    margin: 20px 20px 20px 20px;
+    font-size: 1.5rem;
+}
+
+main .welcomeBox {
+    text-align: center;
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+    padding: 20px;
+    border-radius: 25px;
+    margin: 25px 25px 75px 25px;
+
+}
+
+.welcomeBox a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem ;
+    font-weight: 700;
+}
+
+.grid-container a{
+    color: white;
+    background-color: rgb(0, 0, 0, 0.9);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2, auto);
+    margin-left: 30px;
+    margin-right: 30px;
+    gap: 30px;
+}
+
+.grid-container .box {
+    padding: 10px;
+    height: 500px;
+    width: 450px;
+    font-size: 2rem;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+#animeBox {
+    background-image: url(animeJJK.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+#mangaBox {
+    background-image: url(mangaJJK.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+#storyArcsBox {
+    background-image: url(storyArcsJJK.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+
+#communityBox {
+    background-image: url(communityJJK.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+
+#gamesBox{
+    background-image:url(gameJJK.jfif) ;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#movie {
+    background-image: url(movieJJK.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+.JJKLogoMain{
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.storyParagraphContainer{
+    width: 80vw;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(JJK_MAIN_PIC.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 30px auto;
+}
+
+.storyParagraph{
+    padding: 10px;
+    background-color: rgb(0, 0, 0, 0.2);
+    color: white;
+    font-size: 1.3rem;
+}
+
+
+main .container2{
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+    border: #660008 solid 3px;
+    background-color: rgb(0, 0, 0, 2);
+    margin: 30px auto;
+    margin-bottom: 30px;
+}
+
+.storyArcTxt{
+    color: white;
+    text-align: left;
+    margin: 20px 20px 20px 20px;
+    font-size: 1.5rem;
+}
+
+.grid-container-story{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(4, auto);
+    margin-left: 30px;
+    margin-right: 30px;
+    gap: 30px;
+}
+.grid-container-story a{
+    color: white;
+    background-color: rgb(0, 0, 0, 0.9);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.grid-container-story .box {
+    padding: 10px;
+    height: 500px;
+    width: 450px;
+    font-size: 2rem;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+#curseBox{
+    background-image: url(Chapter_0-1.png);
+    background-size: cover;
+    background-position: center;
+}
+#fearsomeBox{
+    background-image: url(Anime_Key_Visual_5.png);
+    background-size: cover;
+}
+#mahitoBox{
+    background-image: url(Anime_Key_Visual_6.png);
+    background-size: cover;
+}
+#kyotoBox{
+    background-image: url(Anime_Key_Visual_4_29.png);
+    background-size: cover;
+}
+#deathBox{
+    background-image: url(Anime_Key_Visual_8.png);
+    background-size: cover;
+}
+#gojoBox{
+    background-image: url(Anime_Key_Visual_11.png);
+    background-size: cover;
+}
+#shibuyaBox{
+    background-image: url(Anime_Key_Visual_12.png);
+    background-size: cover;
+}
+#itadoriBox{
+    background-image: url(Chapter_137_29.png);
+    background-size: cover;
+    background-position: bottom;
+}
+#perfectBox{
+    background-image: url(Chapter_150_29.png);
+    background-size: cover;
+    background-position: center;
+}
+#cullingBox{
+    background-image: url(Jump_Festa_2022_Genga_Museum_illustration.png);
+    background-size: cover;
+}
+
+#shinjukuBox{
+    background-image: url(Chapter_246.png);
+    background-size: cover;
+}
+
+main .container3{
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+    border: #660008 solid 3px;
+    background-color: rgb(0, 0, 0, 2);
+    margin: 30px auto;
+}
+
+.charTxt{
+    color: white;
+    text-align: left;
+    margin: 20px 20px 20px 20px;
+    font-size: 1.5rem;
+}
+
+.container3 a, p{
+    color: red;
+    margin: 4px;
+    font-size: 1rem;
+}
+
+.grid-container-char{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2,auto);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.grid-container-char a{
+    color: white;
+    background-color: rgb(0,0,0,0.9);
+    font-weight: 700;
+    font-size: 1.5rem;
+
+}
+
+.grid-container-char .box{
+    padding: 10px;
+    height: 500px;
+    width: 450px;
+    font-size: 2rem;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+#yujiBox{
+    background-image: url(yuji.png);
+    background-position: center;
+    background-size: cover;
+}
+#megumiBox{
+    background-image: url(megumi.png);
+    background-position: center;
+    background-size: cover;
+}
+#nobaraBox{
+    background-image: url(nobara.png);
+    background-position: center;
+    background-size: cover;
+}
+#satoruBox{
+    background-image: url(gojo.png);
+    background-position: center;
+    background-size: cover;
+}
+#yutaBox{
+    background-image: url(yuta.png);
+    background-position: center;
+    background-size: cover;
+}
+#sukunaBox{
+    background-image: url(sukuna.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+@media (max-width: 1900px) {
+    .grid-container .box,
+    .grid-container-story .box,
+    .grid-container-char .box{
+        height: 500px;
+        width: 400px;
+    }
+}
+
+@media (max-width: 1700px) {
+    .grid-container .box,
+    .grid-container-story .box,
+    .grid-container-char .box{
+        height: 450px; 
+        width: 350px; 
+    }
+}
+
+@media (max-width: 1500px) {
+    .grid-container .box,
+    .grid-container-story .box, 
+    .grid-container-char .box {
+        height: 400px; 
+        width: 300px; 
+    }
+}
+
+@media (max-width: 1300px) {
+    .grid-container .box,
+    .grid-container-story .box,
+    .grid-container-char .box {
+        height: 350px; 
+        width: 250px; 
+    }
+}
+
+@media(max-width: 1100px){
+    .grid-container,
+    .grid-container-story ,
+    .grid-container-char {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-container .box,
+    .grid-container-story .box,
+    .grid-container-char .box{
+        height: 200px; 
+        width: 100%; 
+    }
+}
+
+@media (max-width: 900px) {
+    .grid-container,
+    .grid-container-story,
+    .grid-container-char{
+    grid-template-columns: 1fr;
+    }
+
+    .grid-container .box,
+    .grid-container-story .box,
+    .grid-container-char .box{
+        height: 200px; 
+        width: 100%; 
+    }
+}
+
+@media (max-width: 720px) {
+    .navigation-list {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .navigation-item {
+        margin: 0;
+    }
+
+    .grid-container .box,
+    .grid-container-story .box,
+    .grid-container-char .box{
+        height: 150px; 
+        width: 100%;
+    }
+
+    .welcomeBox a {
+        font-size: 1.5rem;
+    }
+
+    .storyParagraph{
+        font-size: 1rem;
+    }
+}
