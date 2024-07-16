@@ -1,0 +1,641 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.5s all ease;
+}
+
+body {
+    height: auto;
+    background-color: #080817;
+    width: auto;
+}
+
+header,
+.navigation-container {
+    width: 100%;
+    height: 100%;
+    background-color: #1f1047;
+    box-shadow: 1px 1px 1px black;
+}
+
+.left-top-name {
+    font-size: 1.5rem;
+    display: flex;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    margin-right: 900px;
+    padding: 10px;
+}
+
+.navigation-list {
+    display: flex;
+    justify-content: end;
+    color: white;
+    font-size: 1.5rem;
+    list-style: none;
+    padding: 10px;
+    gap: 50px;
+}
+
+header a {
+    text-shadow: 2px 2px 2px black;
+}
+
+.navigation-item a {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+main .homePageContainer {
+    display: flex;
+    height: 750px;
+    width: 90vw;
+    border: 1px solid black;
+    margin: 50px auto 250px 90px;
+    background-color: white;
+}
+
+.introduction-box {
+    height: 350px;
+    width: 700px;
+    margin: 175px 50px 10px 200px;
+}
+
+.helloBox {
+    font-size: 2.3rem;
+    text-shadow: 1px 1px 1px black;
+    padding: 10px;
+}
+
+.paragraphIntro {
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.socialmedia-box {
+    display: flex;
+    height: auto;
+    margin: 15px;
+    padding: 10px;
+    gap: 30px;
+}
+
+.navigation-item a:hover {
+    transform: scale(1.3rem);
+    color: gold;
+}
+
+.icons:hover {
+    border: 1px solid black;
+    background-color: gold;
+}
+
+#FB img {
+    height: 60px;
+    width: 60px;
+    margin: 6px;
+}
+
+#IG img {
+    height: 45px;
+    width: 45px;
+    margin: 15px;
+}
+
+#GitHub img {
+    height: 70px;
+    margin: 2px;
+}
+
+.homepage-imageBox {
+    border: 5px solid #1f1047;
+    border-radius: 500px;
+    background-image: url(jacobprofile2.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 100px 50px 50px 100px;
+    height: 500px;
+    width: 500px;
+}
+
+
+.homepage-imageBox:hover {
+    border: 10px solid #1f1047;
+}
+
+
+
+.skillSetContainer {
+    display: flex;
+    height: 550px;
+    width: 90vw;
+    margin: 100px auto 200px 90px;
+    background-color: #1f1047;
+    text-align: center;
+}
+
+.skillHeader{
+    color: white;
+    padding: 30px;
+}
+
+.skill-box {
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin: 100px 40px 10px 30px;
+}
+
+.skillTitle {
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+
+.skillParagraph {
+    text-align: left;
+    font-size: 1.3rem;
+    margin: 10px 10px 10px 10px;
+    font-weight: 200;
+}
+
+
+
+#C img {
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+#WebDev img {
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+#UDF img {
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+.Works-About-Section {
+    display: flex;
+    height: 600px;
+    width: 100%;
+    margin: 100px auto 310px auto;
+}
+
+.workContainer {
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    margin: 60px 40px 60px 90px;
+
+}
+
+.workTitle {
+    border: 1px solid #1f1047;
+    background-color: #1f1047;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    padding: 10px;
+}
+
+.work-list {
+    margin: 20px 30px 10px 30px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.work-item a {
+    color: black;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+
+
+.work-item a:hover {
+    color: gold;
+    transform: scale(1.2rem);
+}
+
+.aboutSection {
+    height: 470px;
+    width: 500px;
+    background-color: white;
+    margin: 60px 40px 60px 90px;
+}
+
+.AboutMe {
+    border: 1px solid #1f1047;
+    background-color: #1f1047;
+    color: white;
+    padding: 10px;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+}
+
+.aboutParagraph {
+    font-size: 1.3rem;
+    margin: 20px 10px 5px 10px;
+    line-height: 1.5;
+    font-weight: 200;
+}
+
+.ImageBesideAboutMe {
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin: 60px 40px 60px 90px;
+    background-image: url(laptopImage.jpg);
+    background-size: cover;
+}
+
+.contactSection {
+    height: 700px;
+    width: 90vw;
+    background-color: white;
+    margin: 50px auto 50px 90px;
+}
+
+.contactheading h1 {
+    color: #1f1047;
+    font-size: 5rem;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.contactParagraph {
+    text-align: center;
+    margin: 50px auto;
+    font-size: 1.5rem;
+}
+
+.input-box {
+    display: flex;
+    background-color: #1f1047;
+    width: 410px;
+    margin: auto 5px auto 650px;
+}
+
+input {
+    height: 50px;
+    margin: 10px 10px 10px 10px;
+}
+
+textarea {
+    margin: 40px auto auto 600px;
+    border: 6px solid #1f1047;
+}
+
+.submitButton{
+background-color: #1f1047;
+color: white;
+font-size: 1rem;
+font-weight: 700;
+padding: 10px;
+}
+
+.submitButton:hover{
+    background-color: gold;
+    color: #1f1047;
+    transform: scale(1.1rem);
+    text-shadow: 3px 3px 3px white;
+}
+
+@media(max-width: 1629px){
+       
+    .skill-box {
+        width: 300px;
+        height: 350px;
+    }
+
+    #C img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
+    #WebDev img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #UDF img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .input-box{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    textarea{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .submitButton{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media(max-width: 1400px) {
+    .left-top-name {
+      margin-right: 300px;
+    }
+    
+    .homepage-imageBox{
+        height: 320px; 
+        width: 420px;  
+        border-radius: 50%; 
+        border: 5px solid #1f1047; 
+        margin: 120px 100px 30px 10px; 
+    }
+    
+
+
+    .skillSetContainer {
+        display: flex;
+        flex-direction: column;
+        height: 1650px;
+        width: 90vw;
+        margin: 120px auto 200px 90px;
+        background-color: #1f1047;
+    }
+
+    .skillHeader{
+        font-size: 2rem;
+    }
+    
+
+    .skill-box{
+       display: flex;
+       align-items: center;
+       width: 600px;
+       margin-left: 300px;
+    }
+    
+    .workContainer{
+        height: 430px;
+    }
+
+    .aboutSection{
+        height: 750px;
+    }
+
+    #WebDev img{
+        display: block;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    
+}
+
+@media(max-width: 1200px) {
+    .left-top-name {
+      margin-right: 300px;
+    }
+    
+    .homepage-imageBox{
+        height: 320px; 
+        width: 530px;  
+        border-radius: 50%; 
+        border: 5px solid #1f1047; 
+        margin: 120px 100px 30px 10px; 
+    }
+    
+
+
+    .skillSetContainer {
+        display: flex;
+        flex-direction: column;
+        height: 1600px;
+        width: 90vw;
+        margin: 120px auto 200px 90px;
+        background-color: #1f1047;
+    }
+
+    .skillHeader{
+        font-size: 2rem;
+    }
+    
+
+    .skill-box{
+       display: flex;
+       align-items: center;
+       width: 600px;
+       margin-left: 250px;
+    }
+    
+    .workContainer{
+        height: 600px;
+    }
+
+    .aboutSection{
+        height: 800px;
+    }
+
+    #WebDev img{
+        display: block;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    
+}
+
+@media(max-width: 1100px){
+
+    
+    main .homePageContainer {
+    display: flex;
+    height: 750px;
+    width: 90vw;
+    border: 1px solid black;
+    margin: 50px auto 250px 50px;
+    background-color: white;
+    }
+    .left-top-name {
+        margin-right: 100px;
+      }
+    
+      .introduction-box{
+        margin-left: 20px;
+      }
+
+      .homepage-imageBox{
+        height: 320px; 
+        width: 590px;  
+        border-radius: 50%; 
+        border: 5px solid #1f1047; 
+        margin: 120px 100px 30px 10px; 
+    }
+
+    .skillSetContainer {
+        display: flex;
+        flex-direction: column;
+        height: 1300px;
+        width: 85vw;
+        margin: 120px auto 200px 90px;
+        background-color: #1f1047;
+    }
+
+    .skill-box{
+        margin-left: auto;
+        margin-right: auto;
+    }
+     
+    .ImageBesideAboutMe{
+        display: none;
+    }
+
+    .aboutSection{
+        width: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+@media(max-width: 1000px){
+    .contactSection{
+        width: 80vw;
+    }
+
+    .aboutSection{
+        height: 750px;
+    }
+}
+
+@media(max-width: 800px){
+    .navigation-list{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .left-top-name{
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+
+    .homepage-imageBox{
+        height: 250px; 
+        width: 1000px; 
+        border-radius: 50%;
+        border: 5px solid #1f1047; 
+        margin: 150px 50px 20px 20px; 
+    }
+
+    .aboutParagraph{
+        font-size: 1rem;
+    }
+}
+
+
+@media(max-width: 700px){
+    .navigation-list{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .left-top-name{
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+    
+    .skillSetContainer{
+        height: 1300px;
+        width: 100%;
+        margin: 150px 30px 100px 40px;
+    }
+    .skill-box{
+        width: 450px;
+        height: 400px;
+    }
+    .skillTitle{
+        font-size: 1rem;
+    }
+    .skillParagraph{
+        font-size: 0.9rem;
+    }
+    .homepage-imageBox{
+        height: 150px; 
+        width: 1500px; 
+        border-radius: 50%;
+        border: 5px solid #1f1047; 
+        margin: 300px 50px 20px 20px; 
+    }
+
+    .aboutParagraph{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 400px){
+    .navigation-list{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .left-top-name{
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+
+    .homepage-imageBox{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .skillSetContainer{
+        height: 1300px;
+        width: 100%;
+        margin: 150px 30px 100px 40px;
+    }
+    .skill-box{
+        width: 300px;
+        height: 400px;
+    }
+    .skillTitle{
+        font-size: 1rem;
+    }
+    .skillParagraph{
+        font-size: 0.9rem;
+    }
+    .homepage-imageBox{
+        height: 150px; 
+        width: 1500px; 
+        border-radius: 50%;
+        border: 5px solid #1f1047; 
+        margin: 300px 50px 20px 20px; 
+    }
+
+    .aboutParagraph{
+        font-size: 1rem;
+    }
+}
+
+
+
+
+    
