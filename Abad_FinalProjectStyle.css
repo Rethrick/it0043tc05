@@ -116,7 +116,8 @@ main .homePageContainer {
     background-image: url(jacobprofile2.jpg);
     background-size: cover;
     background-position: center;
-    margin: 100px 50px 50px 100px;
+    position: relative;
+    margin: 150px auto 100px 50px;
     height: 500px;
     width: 500px;
 }
@@ -137,7 +138,7 @@ main .homePageContainer {
     text-align: center;
 }
 
-.skillHeader{
+.skillHeader {
     color: white;
     padding: 30px;
 }
@@ -187,22 +188,16 @@ main .homePageContainer {
     padding: 5px;
 }
 
-.Works-About-Section {
-    display: flex;
-    height: 600px;
-    width: 100%;
-    margin: 100px auto 310px auto;
-}
 
 .workContainer {
-    height: 300px;
-    width: 500px;
+    height: 400px;
+    width: 90vw;
     background-color: white;
     margin: 60px 40px 60px 90px;
 
 }
 
-.workTitle {
+.workHeader {
     border: 1px solid #1f1047;
     background-color: #1f1047;
     color: white;
@@ -212,29 +207,57 @@ main .homePageContainer {
 }
 
 .work-list {
+    display: flex;
+}
+
+.work-list a {
     margin: 20px 30px 10px 30px;
-    font-size: 1.5rem;
-    font-weight: 400;
-}
-
-.work-item a {
-    color: black;
     text-decoration: none;
-    margin-top: 30px;
+    font-size: 0.9rem;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+
+}
+
+.workBox {
+    border: black 1px solid;
+    background-color: #a43377;
+    height: 300px;
+    width: 500px;
+    margin: 30px 20px 30px 40px;
+}
+
+#JJKWiki:hover {
+    background-image: url(JJK-Screenshot.PNG);
+    background-size: cover;
 }
 
 
+#FlexSim:hover {
+    background-image: url(FlexboxSimSS.PNG);
+    background-size: cover;
+}
 
-.work-item a:hover {
+#DSGrid:hover {
+    background-image: url(DemonScreenShot.PNG);
+    background-size: cover;
+}
+
+.workBox a:hover {
     color: gold;
     transform: scale(1.2rem);
 }
 
+#Announcement:hover {
+    background-image: url(skeletonmc.jpg);
+}
+
 .aboutSection {
-    height: 470px;
-    width: 500px;
+    height: 800px;
+    width: 90vw;
     background-color: white;
-    margin: 60px 40px 60px 90px;
+    margin: 160px 40px 160px 60px;
 }
 
 .AboutMe {
@@ -251,16 +274,20 @@ main .homePageContainer {
     margin: 20px 10px 5px 10px;
     line-height: 1.5;
     font-weight: 200;
+    justify-content: center;
 }
 
-.ImageBesideAboutMe {
-    height: 400px;
-    width: 400px;
-    background-color: white;
-    margin: 60px 40px 60px 90px;
-    background-image: url(laptopImage.jpg);
-    background-size: cover;
+.EdBG {
+    text-align: center;
+    font-size: 2rem;
+    padding: 5px;
 }
+
+.School {
+    text-align: center;
+    padding: 3px;
+}
+
 
 .contactSection {
     height: 700px;
@@ -299,79 +326,84 @@ textarea {
     border: 6px solid #1f1047;
 }
 
-.submitButton{
-background-color: #1f1047;
-color: white;
-font-size: 1rem;
-font-weight: 700;
-padding: 10px;
+.submitButton {
+    background-color: #1f1047;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px;
 }
 
-.submitButton:hover{
+.submitButton:hover {
     background-color: gold;
     color: #1f1047;
     transform: scale(1.1rem);
     text-shadow: 3px 3px 3px white;
 }
 
-@media(max-width: 1629px){
-       
+@media(max-width: 1629px) {
+
     .skill-box {
-        width: 300px;
+        width: 700px;
         height: 350px;
     }
 
-    #C img{
+    #C img {
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
 
-    
-    #WebDev img{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    #UDF img{
+
+    #WebDev img {
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .input-box{
+    #UDF img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .input-box {
         display: flex;
         margin-left: auto;
         margin-right: auto;
     }
 
-    textarea{
+    textarea {
         display: flex;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .submitButton{
+    .submitButton {
         display: flex;
         margin-left: auto;
         margin-right: auto;
     }
 }
 
-@media(max-width: 1400px) {
+@media(max-width: 1610px) {
     .left-top-name {
-      margin-right: 300px;
+        margin-right: 600px;
     }
-    
-    .homepage-imageBox{
-        height: 320px; 
-        width: 420px;  
-        border-radius: 50%; 
-        border: 5px solid #1f1047; 
-        margin: 120px 100px 30px 10px; 
+
+    .homePageContainer {
+        height: 700px;
+        width: 90vw;
     }
-    
+
+    .homepage-imageBox {
+        height: 400px;
+        width: 400px;
+        border-radius: 50%;
+        border: 5px solid #1f1047;
+        margin: 135px auto 85px 100px;
+    }
+
 
 
     .skillSetContainer {
@@ -383,47 +415,53 @@ padding: 10px;
         background-color: #1f1047;
     }
 
-    .skillHeader{
+    .skillHeader {
         font-size: 2rem;
     }
-    
 
-    .skill-box{
-       display: flex;
-       align-items: center;
-       width: 600px;
-       margin-left: 300px;
+
+    .skill-box {
+        display: flex;
+        align-items: center;
+        width: 900px;
+        margin: 60px auto 60px auto;
     }
-    
-    .workContainer{
+
+    .workContainer {
         height: 430px;
     }
 
-    .aboutSection{
-        height: 750px;
+    .aboutSection {
+        height: 900px;
     }
 
-    #WebDev img{
+    #WebDev img {
         display: block;
         margin-top: auto;
         margin-bottom: auto;
     }
-    
+
 }
 
-@media(max-width: 1200px) {
+@media(max-width: 1310px) {
     .left-top-name {
-      margin-right: 300px;
+        margin-right: 300px;
     }
-    
-    .homepage-imageBox{
-        height: 320px; 
-        width: 530px;  
-        border-radius: 50%; 
-        border: 5px solid #1f1047; 
-        margin: 120px 100px 30px 10px; 
+
+    .homePageContainer {
+        height: 600px;
+        width: 90vw;
+        ;
     }
-    
+
+    .homepage-imageBox {
+        height: 360px;
+        width: 600px;
+        border-radius: 50%;
+        border: 5px solid #1f1047;
+        margin: 140px 40px 90px 100px;
+    }
+
 
 
     .skillSetContainer {
@@ -435,59 +473,60 @@ padding: 10px;
         background-color: #1f1047;
     }
 
-    .skillHeader{
+    .skillHeader {
         font-size: 2rem;
     }
-    
 
-    .skill-box{
-       display: flex;
-       align-items: center;
-       width: 600px;
-       margin-left: 250px;
+
+    .skill-box {
+        display: flex;
+        align-items: center;
+        width: 600px;
+        margin-left: 250px;
     }
-    
-    .workContainer{
+
+    .workContainer {
         height: 600px;
     }
 
-    .aboutSection{
-        height: 800px;
+    .aboutSection {
+        height: 900px;
     }
 
-    #WebDev img{
+    #WebDev img {
         display: block;
         margin-top: auto;
         margin-bottom: auto;
     }
-    
+
 }
 
-@media(max-width: 1100px){
+@media(max-width: 1100px) {
 
-    
+
     main .homePageContainer {
-    display: flex;
-    height: 750px;
-    width: 90vw;
-    border: 1px solid black;
-    margin: 50px auto 250px 50px;
-    background-color: white;
+        display: flex;
+        height: 750px;
+        width: 90vw;
+        border: 1px solid black;
+        margin: 50px auto 250px 50px;
+        background-color: white;
     }
+
     .left-top-name {
         margin-right: 100px;
-      }
-    
-      .introduction-box{
-        margin-left: 20px;
-      }
+    }
 
-      .homepage-imageBox{
-        height: 320px; 
-        width: 590px;  
-        border-radius: 50%; 
-        border: 5px solid #1f1047; 
-        margin: 120px 100px 30px 10px; 
+    .introduction-box {
+        margin-left: 20px;
+    }
+
+    .homepage-imageBox {
+        height: 320px;
+        width: 590px;
+        border-radius: 50%;
+        border: 5px solid #1f1047;
+        margin: 120px 100px 30px 10px;
     }
 
     .skillSetContainer {
@@ -499,143 +538,276 @@ padding: 10px;
         background-color: #1f1047;
     }
 
-    .skill-box{
+    .skill-box {
         margin-left: auto;
         margin-right: auto;
     }
-     
-    .ImageBesideAboutMe{
-        display: none;
-    }
 
-    .aboutSection{
-        width: 300px;
-        margin-left: 20px;
-        margin-right: 20px;
+
+    .aboutSection {
+        height: 1000px;
     }
 }
-@media(max-width: 1000px){
-    .contactSection{
+
+@media(max-width: 1000px) {
+    .contactSection {
         width: 80vw;
     }
 
-    .aboutSection{
-        height: 750px;
+    .work-list a {
+        font-size: small;
+        padding: 20px;
     }
+
 }
 
-@media(max-width: 800px){
-    .navigation-list{
+@media(max-width: 800px) {
+    .navigation-list {
         display: flex;
         flex-direction: column;
         text-align: center;
     }
-    .left-top-name{
+
+    .left-top-name {
         margin-right: auto;
         margin-left: auto;
         text-align: center;
     }
 
-    .homepage-imageBox{
-        height: 250px; 
-        width: 1000px; 
+    .homepage-imageBox {
+        height: 250px;
+        width: 1000px;
         border-radius: 50%;
-        border: 5px solid #1f1047; 
-        margin: 150px 50px 20px 20px; 
+        border: 5px solid #1f1047;
+        margin: 150px 50px 20px 20px;
     }
 
-    .aboutParagraph{
-        font-size: 1rem;
-    }
-}
-
-
-@media(max-width: 700px){
-    .navigation-list{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-    .left-top-name{
+    .skillSetContainer {
         margin-right: auto;
         margin-left: auto;
         text-align: center;
     }
-    
-    .skillSetContainer{
-        height: 1300px;
-        width: 100%;
-        margin: 150px 30px 100px 40px;
+
+    .workContainer {
+        height: 1500px;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
     }
-    .skill-box{
+
+    .work-list {
+        flex-direction: column;
+    }
+
+    .workBox {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .aboutSection {
+        height: 1350px;
+    }
+}
+
+
+@media(max-width: 700px) {
+    .navigation-list {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left-top-name {
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+
+
+    .skillSetContainer {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .skill-box {
         width: 450px;
         height: 400px;
     }
-    .skillTitle{
+
+    .skillTitle {
         font-size: 1rem;
     }
-    .skillParagraph{
+
+    .skillParagraph {
         font-size: 0.9rem;
     }
-    .homepage-imageBox{
-        height: 150px; 
-        width: 1500px; 
-        border-radius: 50%;
-        border: 5px solid #1f1047; 
-        margin: 300px 50px 20px 20px; 
+
+    .homePageContainer {
+        flex-direction: column;
+        height: auto;
     }
 
-    .aboutParagraph{
-        font-size: 1rem;
+    .homepage-imageBox {
+        height: 200px;
+        width: 200px;
+        border-radius: 3px;
+        border: 5px solid #1f1047;
+        margin: 40px auto 30px auto;
     }
+
+    .introduction-box {
+        margin: 25px auto 15px auto;
+    }
+
+    .helloBox {
+        font-size: 0.9rem;
+    }
+
+    .paragraphIntro {
+        text-align: left;
+        font-size: 0.9rem;
+    }
+
+    .aboutSection {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
 }
 
-@media(max-width: 400px){
-    .navigation-list{
+
+
+@media(max-width: 500px) {
+    .navigation-list {
         display: flex;
         flex-direction: column;
         text-align: center;
     }
-    .left-top-name{
+
+    .left-top-name {
         margin-right: auto;
         margin-left: auto;
         text-align: center;
     }
 
-    .homepage-imageBox{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .skillSetContainer{
-        height: 1300px;
-        width: 100%;
-        margin: 150px 30px 100px 40px;
-    }
-    .skill-box{
-        width: 300px;
-        height: 400px;
-    }
-    .skillTitle{
-        font-size: 1rem;
-    }
-    .skillParagraph{
-        font-size: 0.9rem;
-    }
-    .homepage-imageBox{
-        height: 150px; 
-        width: 1500px; 
-        border-radius: 50%;
-        border: 5px solid #1f1047; 
-        margin: 300px 50px 20px 20px; 
+
+    .skillSetContainer {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
     }
 
-    .aboutParagraph{
+    .skill-box {
+        width: 250px;
+        height: 200px;
+    }
+
+    .skillTitle {
+        font-size: 0.8rem;
+    }
+
+    .skillParagraph {
+       display: none;
+    }
+
+    main .homePageContainer {
+        flex-direction: column;
+        margin-left:auto ;
+        margin-right: auto;
+        height: auto;
+    }
+
+    .homepage-imageBox {
+        height: 200px;
+        width: 200px;
+        border-radius: 3px;
+        border: 5px solid #1f1047;
+        margin: 40px auto 30px auto;
+    }
+
+    .introduction-box {
+        margin: 25px auto 15px auto;
+    }
+
+    .helloBox {
         font-size: 1rem;
+        text-align: center;
+        width: 200px;
+        margin-left: 60px;
+    }
+
+    .paragraphIntro {
+        width: 200px;
+        text-align: center;
+        font-size: 0.9rem;
+        margin-left: 60px;
+    }
+
+    .aboutSection {
+        height: auto;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .contactSection { 
+        height: auto;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .contactheading h1{
+        font-size: 1rem;
+    }
+
+    .contactParagraph{
+        font-size: smaller;
+    }
+
+    .skillTitle{
+        margin-right: 40px;
+    }
+    
+    #WebDev img{
+        height: 150px;
+        width: 150px;
+    }
+    input{
+        height: 25px;
+        width: 80px;
+    }
+
+    input::placeholder{
+        font-size: smaller;
+    }
+
+    .workContainer{
+        height: auto;
+    }
+    .workBox{
+        height: 200px;
+        width: 200px;
+    }
+
+    .input-box{
+        height: 50px;
+        width: 200px;
+    }
+
+    textarea{
+        width: 200px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .submitButton{
+        text-align: center;
+        height: 50px;
+        width: 200px;
     }
 }
-
-
-
-
-    
