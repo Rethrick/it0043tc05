@@ -1,0 +1,76 @@
+body {
+    background-color: white;
+    background-image: url('background-login.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.login-main-container, .register-main-container{
+    background-color: ghostwhite;
+    padding: 25px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.logo {
+    display: block;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    width:320px;
+    height:auto;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+button,a.btn {
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+}
+
+.btn-success {
+    background-color: green;
+    color: white;
+}
+
+.btn-warning {
+    background-color: orange;
+    color: white;
+}
+
+.btn-default {
+    background-color: green;
+    color: white;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}

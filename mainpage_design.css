@@ -1,0 +1,106 @@
+ html, body {
+    height: auto;
+    min-height: 100%;
+    overflow-y: auto; 
+    margin: 0;
+    padding: 0;
+    background-image: url("mainpage_background.jpg");
+    background-size: cover;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-shadow: black;
+}
+
+.player-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 6px; 
+}
+
+.form-section {
+    background-color: #ffffffcc;
+    padding: 10px; 
+    max-width: 280px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.form-section h2 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-section label {
+    font-size: 0.8em;
+    margin-bottom: 1px;
+}
+
+.form-section input[type="text"],
+.form-section input[type="number"],
+.form-section input[type="file"] {
+    padding: 4px; 
+    font-size: 0.8em;
+    height: 26px; 
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.form-section input[type="submit"] {
+    color: white;
+    padding: 5px;
+    font-size: 0.85em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+    height: 30px;
+}
+
+.form-section input[type="submit"]:hover {
+    background-color: blue;
+}
+
+.form-section input[type="submit"]:hover {
+    background-color: blue;
+}
+
+.table-section {
+    background: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 30px 20px 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+}
+
+th{
+    background-color: blue;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+td{
+    border: 1px solid black;
+    padding:10px;
+    text-align: center;
+    background-color: darkgoldenrod;
+    color: white;
+    font-size: 2rem;
+}
+
